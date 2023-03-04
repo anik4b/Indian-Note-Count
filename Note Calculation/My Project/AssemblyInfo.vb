@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Imports System.Resources
+
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -12,10 +14,10 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("This App is useful for note counting")> 
 <Assembly: AssemblyCompany("Anik Biswas")> 
 <Assembly: AssemblyProduct("Note Calculation")> 
-<Assembly: AssemblyCopyright("Copyright ©  2023")> 
+<Assembly: AssemblyCopyright("DSKY Solution ©  2023")> 
 <Assembly: AssemblyTrademark("Only for Who need")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("b6165475-0a23-41c5-8ba5-b12c16e5e303")> 
@@ -33,3 +35,5 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyVersion("1.0.0.0")> 
 <Assembly: AssemblyFileVersion("2.0.2.3")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("en-IN")> 
